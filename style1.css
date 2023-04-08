@@ -1,0 +1,65 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap');
+
+body {
+    font-family: 'Roboto Mono', monospace;
+    background-image: linear-gradient(#58AEE0,#7C62FC);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    text-align: center;
+}
+#titulo {
+    color: white;
+    text-shadow: black 3px 3px;
+    font-weight: bold;
+    font-size: 30px;
+    margin: 20px;
+}
+main {
+    display: block;
+    margin: auto;
+    padding: 10px;
+    min-width: 300px;
+    max-width: 550px;
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: black 2px 2px 7px;
+}
+div {
+    background-color: #5866E0;
+    min-width: 270px;
+    max-width: 530px;
+    padding: 20px;
+    display: block;
+    margin: auto;
+    border-radius: 15px;
+    box-shadow: black 1px 1px 5px;
+}
+input {
+    margin: 10px;
+    margin-bottom: 20px;
+    padding: 7px;
+    border-radius: 3px;
+    border: hidden;
+}
+.text {
+    background-color: #beb1ff;
+    width: 300px;
+    padding: 5px;
+    border-radius: 5px;
+    font-weight: bold;
+    margin: 10px auto;
+}
+#submit {
+    border-color: #00ff15c7;
+    padding: 10px;
+    width: 200px;
+    background-color: #1adb2ada;
+}
+#submit:hover {
+    background-color: #00ff15c7;
+}
+#sus {
+    display: none;
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+    <p id="titulo">Cadastro</p>
+    <main>
+        <div>
+            <form name="RespForm" action="RespForm.php" method="post">
+                <label for="" class="text">Nome</label><br>
+                <input type="text" name="nome" size="30" maxlength="30"><br>
+                <label for="" class="text">E-mail</label><br>
+                <input type="text" name="email" size="30" id=""><br>
+                <label for="" class="text">Senha</label><br>
+                <input type="password" name="senha" size="10" maxlength="10"><br>
+                <label for="" class="text">Sexo</label><br>
+                <input type="radio" name="sexo" value="Masculino">Masculino
+                <input type="radio" name="sexo" value="Feminino">Feminino
+                <input type="radio" name="sexo" value="Outros" checked>Outros
+                <input id="sus" type="radio" name="sexo" value="" checked><br>
+                <label for="" class="text">Nascimento</label><br>
+                <input type="date" name="nascimento" id=""><br>
+                <input type="submit" class="text" id="submit" value="Confirmar">
+            </form>
+        </div>
+    </main>
+</body>
+</html>
