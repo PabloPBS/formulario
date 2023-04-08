@@ -8,7 +8,14 @@
     <link rel="stylesheet" href="../style1.css">
 </head>
 <body>
-<p id="titulo">Dados do usuário</p>
+    <?php
+        if ($_POST["nome"]) {
+            echo "<p id='titulo'>Bem-vindo, ". $_POST["nome"] . "!</p>";
+        } else {
+            echo '<p id="titulo">Bem-vindo!</p>';
+        }
+    ?>
+    <p id="subtitle">Aqui estão os dados que você inseriu:</p>
     <main>
         <div>
             <?php 
@@ -29,6 +36,8 @@
 
                 MostrarDados($nome, $email, $senha, $sexo, $nascimento);
             ?>
+            <hr>
+            <section><a id="link" href="javascript: history.go(-1)">Clique aqui para voltar ao formulário</a></section>
         </div>
     </main>
 </body>

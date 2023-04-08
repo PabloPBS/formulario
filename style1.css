@@ -12,8 +12,13 @@ body {
     color: white;
     text-shadow: black 3px 3px;
     font-weight: bold;
-    font-size: 30px;
+    font-size: 2em;
     margin: 20px;
+}
+#subtitle {
+    color: white;
+    font-weight: bold;
+    font-size: 1.5em;
 }
 main {
     display: block;
@@ -58,11 +63,27 @@ input {
     background-color: #1adb2ada;
 }
 #submit:hover {
-    background-color: #00ff15c7;
+    background-color: #00ff1585;
 }
 #sus {
     display: none;
 }
 #responsividade {
     margin-bottom: 10px;
+}
+#link {
+    text-decoration: none;
+    margin: 10px;
+    color: white;
+}
+#link:hover {
+    text-decoration: underline;
+}
+section {
+    display: block;
+    margin: 20px auto 0px auto;
+    padding: 5px;
+    border-radius: 3px;
+    background-color: #a391ff;
+    max-width: max-content;
 }
